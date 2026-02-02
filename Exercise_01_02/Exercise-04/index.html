@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai tap 4</title>
+</head>
+<body>
+    <form> 
+        <fieldset>
+            <legend>Basic Info</legend> 
+            <label for="emp-id">Employee ID:</label> 
+            <input type="text" id="emp-id" name="employeeid" size="30"><br><br>
+
+            <label for="last-name">Last Name:</label> 
+            <input type="text" id="last-name" name="lastname" size="30"><br><br>
+
+            <label for="first-name">First Name:</label> 
+            <input type="text" id="first-name" name="firstname" size="30"><br><br>
+
+            <td>Gender</td>
+            <td>
+                <input type="radio" id="male" name="gender" value="m">
+                <label for ="male">Male</label>
+
+                <input type="radio" id="female" name="gender" value="f" >
+                <label for ="female">Female</label> 
+
+                <input type="radio" id="xxx" name="gender" value="x">
+                <label for ="xxx">XXX</label>
+
+                <input type="radio" id="yyy" name="gender" value="y">
+                <label for ="yyy">YYY</label> 
+            </td><br><br>
+            
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" size="30"><br><br>
+
+            <label for="suffix">Suffix:</label>
+            <input type="text" id="suffix" name="suffix" size="30"><br><br>
+
+            <label for="birth-date">Birth Date:</label>
+            <input type="date" id="birth-date" name="birthdate"><br><br>
+
+            <label for="hire-date">Hire Date:</label>
+            <input type="date" id="hire-date" name="hiredate"><br><br>
+
+            <label for="ssn">SSN * (if applicable):</label>
+            <input type="text" id="ssn" name="ssn" size="30"><br><br>
+
+            <label for="reports-to">Reports To</label>
+            <select id="reports-to" name="reportsto">
+                <option value="1">Buchanan</option>
+                <option value="2">123</option>
+                <option value="3">456</option>
+            </select><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Contact Infor</legend>
+
+            <label for="Email">Email</label>
+            <input type="email" id="email" name="email" size="30"><br><br>
+
+            <label for="Address">Address</label>
+            <input type="text" id="address" name="address" size="30"><br><br>
+
+            <label for="City">City</label>
+            <input type="text" id="city" name="city" size="30"><br><br>
+
+            <label for="Region">Region</label>
+            <input type="text" id="region" name="region" size="30"><br><br>
+
+            <label for="Postal-Code">Postal Code</label>
+            <input type="text" id="postal-code" name="postalcode" size="30"><br><br>
+
+            <label for="Country">Country</label>
+            <select id="country" name="country">
+                <option value="Vietnam">Vietnam</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+            </select><br><br>
+
+            <label for="US-Home-Phone">US Home Phone</label>
+            <input type="text" id="us-home-phone" name="ushomephone" size="30"><br><br>
+
+            <label for="Photo">Photo</label>
+            <input type="file" id="photo" name="photo"><br><br>
+
+        </fieldset>
+
+<fieldset>
+            <legend>Optional Info</legend>
+            <table border="0" width="100%">
+                <tr>
+                    <td valign="top" width="150"><label for="notes">Notes</label></td>
+                    <td>
+                        <textarea id="notes" name="notes" rows="8" cols="60">Anne has a BA degree in English from St. Lawrence College. She is fluent in French and German.ZZZ</textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td valign="top">Preferred Shift</td>
+                    <td>
+                        <input type="checkbox" id="regular" name="shift" value="regular">
+                        <label for="regular">Regular</label><br>
+                        <input type="checkbox" id="gravy-yard" name="shift" value="gravy" checked>
+                        <label for="gravy-yard">Gravy Yard</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="active">Active?</label></td>
+                    <td>
+                        <input type="checkbox" id="active" name="active" checked>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td valign="top">Are you human?</td>
+                    <td>
+                        <font size="5" face="monospace"><strong>T I D A W O</strong></font><br>
+                        <small>Click to change</small><br>
+                        <input type="text" name="captcha" size="40">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <hr> <div align="right">
+            <button type="submit"> Submit</button>
+            <button type="reset"> Cancel</button>
+        </div>
+        <p align="left"><font size="2">* required</font></p>
+    </form>
+</body>
+</html>
+ 
+ 

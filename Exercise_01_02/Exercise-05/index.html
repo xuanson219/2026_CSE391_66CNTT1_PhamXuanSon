@@ -1,0 +1,101 @@
+<!DOCTYPE html> 
+<html lang="vi"> 
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai tap 5</title>
+</head>
+<body>
+
+    <header>
+        <strong>HR Management</strong>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Contact</a>
+        </nav>
+        
+        <div>
+            <input type="text" placeholder="Search...">
+            <button type="button">Search</button>
+        </div>
+    </header>
+
+    <hr> <main>
+        <section>
+            <h2>Employee</h2>
+            <button type="button">+ Add</button>
+        </section>
+
+        <table border="1"> <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Position</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Fatima Beatriz</td>
+                    <td>Fatima Beatriz@gmail.com</td>
+                    <td>0985674321</td>
+                    <td>Staff</td>
+                    <td>
+                        <button type="button">Edit</button>
+                        <button type="button">Delete</button>
+                    </td>
+                </tr>
+                </tbody>
+        </table>
+    </main>
+
+    <hr>
+
+    <section id="new-employee-modal">
+        <header>
+            <h3>New Employee</h3>
+            <span>&times;</span> </header>
+
+        <form>
+            <div>
+                <label>Name</label><br>
+                <input type="text">
+            </div>
+            <div>
+                <label>Email</label><br>
+                <input type="email">
+            </div>
+            <div>
+                <label>Phone</label><br>
+                <input type="text">
+            </div>
+            <div>
+                <label>Position</label><br>
+                <select>
+                    <option>-- Select Position --</option>
+                    <option>Staff</option>
+                    <option>Manager</option>
+                    <option>CEO</option>
+                </select>
+            </div>
+            <div>
+                <label>Sex</label><br>
+                <input type="radio" name="sex"> Male
+                <input type="radio" name="sex"> Female
+            </div>
+
+            <footer>
+                <button type="submit">Save</button>
+                <button type="button">Cancel</button>
+            </footer>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 HR Management System</p> </footer>
+
+</body>
+</html>
